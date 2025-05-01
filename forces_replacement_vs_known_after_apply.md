@@ -15,6 +15,7 @@ You’ll typically see this when modifying **immutable fields** like:
 - `service_account.email`
 - `zone`
 - `boot_disk`
+- `image`
 
 ### 🔧 Example in a Terraform plan:
 ```hcl
