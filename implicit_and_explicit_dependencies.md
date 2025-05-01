@@ -1,3 +1,5 @@
+✅ **Yes — this issue can happen regardless of whether you use _implicit_ or _explicit_ dependencies**. That’s the heart of the problem.
+
 ---
 
 ## 🔍 Let’s clarify why:
@@ -54,3 +56,6 @@ So the **only real protection** is:
 - **Protecting critical resources** (`prevent_destroy`), and
 - **Avoiding dynamic or computed inputs for immutable fields.**
 
+---
+
+Would you like a safe modular structure as an example Terraform layout to follow?
